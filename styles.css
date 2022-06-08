@@ -31,7 +31,7 @@ header {
     font-size: 32px;
 }
 
-button, .number {
+button {
     background-color: coral;
     border: 2px solid red;
     border-radius: 5px;
@@ -59,7 +59,7 @@ button, .number {
     flex-grow: 4;
 }
 
-.console {
+#display {
     background-color: green;
     border-radius: 5px;
     width: 250px;
