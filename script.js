@@ -1,3 +1,6 @@
+
+
+
 function add(a,b) {
     return a + b;
 }
@@ -20,3 +23,5 @@ function operate(operator,a,b) {
     if (operator === 'multiply') return multiply(a,b);
     if (operator === 'divide') return divide(a,b);
 }
+
+console.log(operate('divide',4,5));
