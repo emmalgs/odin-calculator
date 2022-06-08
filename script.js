@@ -1,3 +1,8 @@
+const console = document.querySelector('.console');
+const numbers = document.querySelector('.number');
+const button = document.querySelector('button');
+const equal = document.querySelector('.equals');
+const clear = document.querySelector('.clear');
 
 
 
@@ -24,4 +29,7 @@ function operate(operator,a,b) {
     if (operator === 'divide') return divide(a,b);
 }
 
-console.log(operate('divide',4,5));
+function populate()
+        
+
+

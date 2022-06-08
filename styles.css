@@ -17,7 +17,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: lavender;
+    background-color: rgb(250, 249, 230);
     font-family:'Roboto Mono', monospace;
     margin-bottom: 100px;
     margin: 48px;
@@ -31,16 +31,14 @@ header {
     font-size: 32px;
 }
 
-button {
+button, .number {
     background-color: coral;
-    border: solid;
-    border-color: red;
-    border-width: 2px;
+    border: 2px solid red;
     border-radius: 5px;
     padding: 8px;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
+    font-size: 40px;
     margin: 8px;
     flex-basis: auto;
 }
@@ -52,7 +50,8 @@ button {
     flex-wrap: wrap;
     background-color: lightcoral;
     border: 2px solid lightcoral;
-    width: 150px;
+    border-radius: 5px;
+    width: 250px;
     height: auto;
 }
 
@@ -62,12 +61,12 @@ button {
 
 .console {
     background-color: green;
-    border: 2px solid black;
-    width: 150px;
+    border-radius: 5px;
+    width: 250px;
     height: auto;
-    margin: 0px 8px;
+    padding: 4px;
     font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
+    font-size: 40px;
     color: lightgreen;
     text-align: right;
 }
