@@ -50,7 +50,6 @@ button {
     flex-wrap: wrap;
     background-color: lightcoral;
     border: 2px solid lightcoral;
-    border-radius: 5px;
     width: 250px;
     height: auto;
 }
@@ -61,7 +60,6 @@ button {
 
 #display {
     background-color: green;
-    border-radius: 5px;
     width: 250px;
     height: auto;
     padding: 4px;
@@ -69,4 +67,8 @@ button {
     font-size: 40px;
     color: lightgreen;
     text-align: right;
+}
+
+#calculator {
+    border: 10px solid red;
 }

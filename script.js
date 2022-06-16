@@ -12,7 +12,7 @@ function display(num) {
         storedValue = 0;
     }
     if(num === '0' && ops === '/' && currentValue === '') {
-        calcDisplay.textContent = 'NaN';
+        calcDisplay.textContent = 'STOP IT';
         storedValue = NaN;
     } else if(currentValue != '0') {
         currentValue = currentValue + num;
